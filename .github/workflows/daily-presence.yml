@@ -1,0 +1,34 @@
+name: Daily Presence
+
+on:
+  schedule:
+    - cron: '0 14 * * *'  # 14:00 UTC — 8:00 AM MDT
+  workflow_dispatch:
+
+jobs:
+  update-presence:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Rotate repo and update presence
+        env:
+          GH_TOKEN: ${{ secrets.GH_PRESENCE_TOKEN }}
+        run: |
+          REPOS=("honey_pot" "codeRED" "shebang_" "red-2" "Red" "I.T_forensics")
+          DAY=$(date +%j)
+          INDEX=$((10#$DAY % ${#REPOS[@]}))
+          TARGET="${REPOS[$INDEX]}"
+          DATE=$(date -u '+%Y-%m-%d')
+          TIME=$(date -u '+%H:%M UTC')
+
+          git clone "https://Gypsy-82:${GH_TOKEN}@github.com/Gypsy-82/${TARGET}.git" /tmp/presence-target
+          cd /tmp/presence-target
+
+          printf '# Presence\n\n> Last Active: %s at %s\n' "$DATE" "$TIME" > PRESENCE.md
+
+          git config user.name "Gypsy-82"
+          git config user.email "stonecutter369@proton.me"
+          git add PRESENCE.md
+          git diff --cached --quiet && echo "No changes — skipping commit." && exit 0
+          git commit -m "chore: presence ${DATE}"
+          git push
