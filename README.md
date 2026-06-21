@@ -3,7 +3,7 @@
 > *"Most people learn tools — I learn principles."*
 
 [![Open to Work](https://img.shields.io/badge/Open%20to%20Work-IT%20Administrator-000000?style=for-the-badge&labelColor=000000&logoColor=white)](https://github.com/Gypsy-82)
-📍 Canada 🍁
+[![Location](https://img.shields.io/badge/Based%20in-Canada%20🍁-000000?style=for-the-badge)]()
 
 ---
 
