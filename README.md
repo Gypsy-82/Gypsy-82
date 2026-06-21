@@ -107,6 +107,7 @@ is built by someone who understands the offense.
 | `forensic.sh` | Zero-footprint browser forensics tool | Bash | ✅ Live |
 | `pkg_auth_audit.sh` | Read-only package authentication auditor | Bash | ✅ Live |
 | `sysdiag.sh` | System diagnostics dashboard | Bash | ✅ Live |
+| `scanner` | Self-hosted web security scanner — headers, credentials, DOM XSS, OSINT, file analysis | PHP, Docker, Apache, ClamAV | ✅ Live |
 | Client Web Projects | Production sites — designed, built, deployed, secured | PHP / Laravel / JS | 🔨 Active |
 
 ---
