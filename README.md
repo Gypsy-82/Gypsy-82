@@ -46,6 +46,7 @@ Where I live.
 ![PHP](https://img.shields.io/badge/PHP-000000?style=for-the-badge&logo=php&logoColor=777BB4)
 ![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Go](https://img.shields.io/badge/Go-000000?style=for-the-badge&logo=go&logoColor=00ADD8)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-000000?style=for-the-badge&logo=gnu-bash&logoColor=4EAA25)
 ![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=E34F26)
 ![CSS3](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=1572B6)
@@ -54,7 +55,7 @@ Where I live.
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=336791)
 ![MySQL](https://img.shields.io/badge/MySQL-000000?style=for-the-badge&logo=mysql&logoColor=4479A1)
-![SQL](https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=databricks&logoColor=FF3621)
+![SQLite](https://img.shields.io/badge/SQLite-000000?style=for-the-badge&logo=sqlite&logoColor=003B57)
 
 **Frameworks & Runtimes**
 
@@ -95,20 +96,20 @@ is built by someone who understands the offense.
 
 ---
 
-## 🗂️ Active Projects
+## 🗂️ Featured Projects
 
-| Project | Description | Stack | Status |
-|---------|-------------|-------|--------|
-| **La Forge** | Live production Restaurant OS — manager PWA + staff PWA | Node.js, Express, PostgreSQL, Socket.IO, PM2, Nginx, JWT, Docker | ✅ Live |
-| **Homelab** | Isolated Docker lab — red team, blue team, honeypot, malware RE, proxy chain | Docker, Ubuntu, Bash | ✅ Live |
-| `honey_pot` | Proxy that intercepts attacker credentials on URL redirects | Go | ✅ Live |
-| `network_dashboard` | Network admin monitoring tool | Python | 🔒 Private |
-| `cron_manager.sh` | Safe cron lifecycle manager — create, start, stop, destroy | Bash | 🔨 Building |
-| `forensic.sh` | Zero-footprint browser forensics tool | Bash | ✅ Live |
-| `pkg_auth_audit.sh` | Read-only package authentication auditor | Bash | ✅ Live |
-| `sysdiag.sh` | System diagnostics dashboard | Bash | ✅ Live |
-| `scanner` | Self-hosted web security scanner — headers, credentials, DOM XSS, OSINT, file analysis | PHP, Docker, Apache, ClamAV | ✅ Live |
-| Client Web Projects | Production sites — designed, built, deployed, secured | PHP / Laravel / JS | 🔨 Active |
+Everything linked here is public and runnable. If it's in the table, it's in the repo.
+
+| Project | What it is | Stack |
+|---------|-----------|-------|
+| [**deaddrop**](https://github.com/Gypsy-82/deaddrop) | Zero-knowledge, self-destructing secret share — encrypted at rest, decrypted only in the recipient's browser; the link looks like a 404 | PHP, SQLite, Docker, Caddy |
+| [**smsproxy**](https://github.com/Gypsy-82/smsproxy) | One-time terminal-sharing link over an authenticated WebSocket relay (HMAC challenge/response, burn-after-session), fronted by Caddy/Cloudflare | Node.js |
+| [**codeRED**](https://github.com/Gypsy-82/codeRED) | Modular terminal recon & web-scanning framework for authorized security testing | Python |
+| [**I.T_forensics**](https://github.com/Gypsy-82/I.T_forensics) | Offline file-anomaly & forensic analysis toolkit — image, video, audio, document inspection | Python |
+| [**linux-toolkit**](https://github.com/Gypsy-82/linux-toolkit) | Self-contained, dependency-free Bash sysadmin utilities, fail-safe by design | Bash |
+
+> Also running privately: a Dockerized security homelab (segmented red/blue/honeypot
+> network) and production web work for clients. Available to discuss on request.
 
 ---
 
