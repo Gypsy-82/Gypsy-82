@@ -108,9 +108,6 @@ Everything linked here is public and runnable. If it's in the table, it's in the
 | [**I.T_forensics**](https://github.com/Gypsy-82/I.T_forensics) | Offline file-anomaly & forensic analysis toolkit — image, video, audio, document inspection | Python |
 | [**linux-toolkit**](https://github.com/Gypsy-82/linux-toolkit) | Self-contained, dependency-free Bash sysadmin utilities, fail-safe by design | Bash |
 
-> Also running privately: a Dockerized security homelab (segmented red/blue/honeypot
-> network) and production web work for clients. Available to discuss on request.
-
 ---
 
 ## 📊 GitHub Stats
