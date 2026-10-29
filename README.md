@@ -108,9 +108,6 @@ Everything linked here is public and runnable. If it's in the table, it's in the
 | [**cloakit**](https://github.com/Gypsy-82/cloakit) | Terminal file/folder cloaking — encrypts contents, filenames, **and the inventory itself** (item count hidden); XChaCha20-Poly1305 + Argon2id envelope key | Rust |
 | [**deaddrop**](https://github.com/Gypsy-82/deaddrop) | **Store-and-forward** secret sharing — encrypt a message or file, hand off an unguessable link, it self-destructs on first read; zero-knowledge at rest | PHP, SQLite, Docker, Caddy |
 | [**smsproxy**](https://github.com/Gypsy-82/smsproxy) | **Live** one-time terminal relay — bridges one authenticated browser to your shell over WebSocket (HMAC challenge/response); nothing stored, the link dies with the session | Node.js |
-| [**codeRED**](https://github.com/Gypsy-82/codeRED) | Modular terminal recon & web-scanning framework for authorized security testing | Python |
-| [**I.T_forensics**](https://github.com/Gypsy-82/I.T_forensics) | Offline file-anomaly & forensic analysis toolkit — image, video, audio, document inspection | Python |
-| [**linux-toolkit**](https://github.com/Gypsy-82/linux-toolkit) | Self-contained, dependency-free Bash sysadmin utilities, fail-safe by design | Bash |
 
 ---
 
