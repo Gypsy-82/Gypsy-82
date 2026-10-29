@@ -107,7 +107,7 @@ Everything linked here is public and runnable. If it's in the table, it's in the
 |---------|-----------|-------|
 | [**cloakit**](https://github.com/Gypsy-82/cloakit) | Terminal file/folder cloaking — encrypts contents, filenames, **and the inventory itself** (item count hidden); XChaCha20-Poly1305 + Argon2id envelope key | Rust |
 | [**deaddrop**](https://github.com/Gypsy-82/deaddrop) | **Store-and-forward** secret sharing — encrypt a message or file, hand off an unguessable link, it self-destructs on first read; zero-knowledge at rest | PHP, SQLite, Docker, Caddy |
-| [**smsproxy**](https://github.com/Gypsy-82/smsproxy) | **Live** one-time terminal relay — bridges one authenticated browser to your shell over WebSocket (HMAC challenge/response); nothing stored, the link dies with the session | Node.js |
+| [**smsproxy**](https://github.com/Gypsy-82/smsproxy) | **End-to-end encrypted** one-time chat between your terminal and one browser — AES-256-GCM, key lives only in the link `#fragment`; nothing stored, the link burns when the chat ends | Node.js |
 | [**ghstbsh**](https://github.com/Gypsy-82/ghstbsh) | Ghost shell — routes every shell history file to `/dev/null` so **nothing persists** after the session; zero crate dependencies, no daemon, no root | Rust |
 | [**sysguard**](https://github.com/Gypsy-82/sysguard) | **Read-only** live terminal dashboard for a Linux host — resources, listeners & connections, processes, login/sudo activity, SUID binaries, services, cron | Python, Textual, psutil |
 
